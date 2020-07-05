@@ -591,6 +591,16 @@ background-attachment:fixed;
   width:100%;
   position:absolute;
 }
+
+@media screen and (max-width:969px){
+  
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:20%;
+    position:relative;
+    height:400px;
+  }
+}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
